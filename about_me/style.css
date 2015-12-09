@@ -1,0 +1,75 @@
+body {
+	background-color: rgba(204, 51, 255, 0.5);
+	font-family: sans-serif, Arial;
+	padding: 10px;
+	text-align: left;
+}
+h1 {
+	color: #990000;
+	font-size: 25px;
+}
+h2 {
+	color: #000099;
+	font-size: 15px;
+}
+h3 {
+	color: rgb(0, 153, 51);
+	text-decoration: underline;
+}
+.homeroom {
+	color: #000;
+	display: block;
+}
+hr {
+	color: #3333cc;
+	display: block;
+	margin-bottom: 1.5em;
+}	
+h4 {
+	color: #3333cc;
+	font-weight: 700;
+	font-style: italic;
+}
+.img2 {
+	width: 125px;
+	height: 50px;
+}
+.img3 {
+	width:125px;
+	height:38px;
+}
+/* way 1
+img.aboutpic,
+.aboutpic {
+	width: 91px;
+	height: 170px;
+	border: 3px solid #6600ff;
+	margin: 20px;
+	display: block;
+    float: right;
+}
+.info {
+	display: block;
+	float: left;
+	width: 50%;
+}
+*/
+/* way 2 */
+.aboutpic {
+	width: 91px;
+	height: 170px;
+	border: 3px solid #6600ff;
+	margin: 20px;
+	display:inline-block;
+    float:none;
+}
+.info {
+	display:inline-block;
+	float:none;
+	width: 50%;
+}
+.info p {
+	text-align: left;
+}
+
+
